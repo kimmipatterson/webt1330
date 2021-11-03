@@ -1,0 +1,122 @@
+@charset "UTF-8";
+body {
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-image: url(images/monkeys.jpg);
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+header {
+    background-color: rgba(255,255,255,0.90);
+    padding: 10px;
+    width: 930px;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    display: flex;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+header img {
+    margin: 10px;
+}
+.float-left   {
+    float: left;
+    margin-right: 20px;
+    border: medium solid rgba(0,174,239,1.00);
+    border-radius: 25px;
+    -webkit-box-shadow: 2px 2px 20px -7px rgba(49,49,49,1.00);
+    box-shadow: 2px 2px 20px -7px rgba(49,49,49,1.00);
+}
+.full {
+    border-radius: 25px;
+    border: medium solid rgba(0,174,239,1.00);
+    width: 890px;
+    clear: none;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    -webkit-box-shadow: 2px 2px 20px -7px rgba(49,49,49,1.00);
+    box-shadow: 2px 2px 20px -7px rgba(49,49,49,1.00);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: auto;
+}
+nav {
+    width: 500px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    margin-left: auto;
+    text-align: right;
+    font-size: large;
+}
+a {
+    color: #BF1E2C;
+    font-weight: bold;
+    text-decoration: none;
+}a:hover {
+    color: #00AEEF;
+}
+#page-content {
+    width: 950px;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    border-top: 8px solid #BF1E2D;
+    background-color: rgba(255,255,255,0.90);
+    displ: flex;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.main-text {
+    padding: 30px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+footer {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: rgba(191,30,45,1.00);
+}
+.main-text ul li {
+    margin-bottom: 5px;
+    margin-right: 20px;
+}
+h1   {
+    color: rgba(191,30,45,1.00);
+}
+.full {
+    float: none;
+}
+.career {
+    background-image: url(images/career-bckgr.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.overnight {
+    background-image: url(images/night-sky.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+}
+.personal {
+    background-image: url(images/arts-and-crafts.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.summer {
+    background-image: url(images/school-supplies.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+}
+.volunteen {
+    background-image: url(images/yard-tools.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
