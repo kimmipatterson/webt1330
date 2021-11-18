@@ -60,10 +60,12 @@ body {
     border: medium solid rgba(255,255,255,1.00);
     overflow-x: hidden;
     overflow-y: hidden;
-    margin-top: 9px;
-    margin-bottom: 9px;
+    margin-bottom: 24px;
     -webkit-box-shadow: 3px 3px 10px 0px rgba(83,83,83,1.00);
     box-shadow: 3px 3px 10px 0px rgba(83,83,83,1.00);
+}
+h3 {
+    padding-top: 24px;
 }
 
 @media screen and (max-width:767.98px){
