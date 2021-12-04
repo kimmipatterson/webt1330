@@ -1,0 +1,71 @@
+@charset "UTF-8";
+.logo {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    display: block;
+}
+.container {
+    width: 85%;
+}
+footer {
+    color: rgba(57,57,57,1.00);
+    text-align: center;
+    font-size: small;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+body {
+    font-family: hero-new, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+
+}
+h2 {
+    font-weight: 300;
+}
+.tagline {
+    font-style: normal;
+    text-align: center;
+    padding-top: 30px;
+    margin-bottom: 20px;
+}
+iframe {
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+}
+.main {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.row .col-12.offset-0 .img-fluid {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    display: block;
+}
+.card {
+    max-width: 319px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1 {
+    font-weight: 200;
+}
+a {
+    color: #28A745;
+}
+h4 {
+    font-weight: 400;
+}
+.address {
+    text-align: center;
+}
+.phone {
+    font-size: large;
+}
