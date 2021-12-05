@@ -32,6 +32,9 @@ h2 {
     text-align: center;
     padding-top: 30px;
     margin-bottom: 20px;
+    border-top: thin solid #868686;
+    margin-top: 10px;
+    padding-bottom: 20px;
 }
 iframe {
     width: 100%;
@@ -83,20 +86,23 @@ textarea {
 .button {
     width: auto;
 }
-form {
-    width: 80%;
+#contact {
+    width: 100%;
     display: block;
     margin-left: auto;
     margin-right: auto;
     margin-top: 20px;
     margin-bottom: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    border: thin solid #28A745;
+    border-radius: 15px;
 }
 
 @media screen and (min-width:768px){
 .logo {
     width: 50%;
-}
-form {
-    width: 90%;
 }
 }
