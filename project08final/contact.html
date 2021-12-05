@@ -7,7 +7,7 @@
     <title>The Strand</title>
     <!-- Bootstrap -->
 	<link href="css/bootstrap-4.4.1.css" rel="stylesheet">
-	<link href="styles.css" rel="stylesheet" type="text/css">
+	<link href="css/styles.css" rel="stylesheet" type="text/css">
 	<link rel="stylesheet" href="https://use.typekit.net/fku8rqx.css">
     <link rel="shortcut icon" href="favicon_io/favicon.ico" type="image/x-icon">
   </head>
@@ -36,23 +36,33 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-12 offset-0 address"><img src="images/chestnut-strand-photo.png" class="img-fluid" alt="The Strand">
+        <div class="col-12 offset-0 address col-md-6"><img src="images/chestnut-strand-photo.png" class="img-fluid" alt="The Strand">
 		  <h4>The Strand Salon</h4>
 		  <p class="phone"><strong>(423) 760-839</strong></p>
-		  <p>833 Chestnut St Chattanooga, TN 37402</p>
+		  <p>833 Chestnut St.<br>
+			Chattanooga, TN 37402</p>
         </div>
-        <div class="col-12 main col-lg-6">
-          <label for="textfield">Your Name:</label>
-          <input type="text" name="textfield" id="textfield">
+        <div class="col-12 main col-lg-6 col-md-6">
           <form id="contact" name="contact" method="post">
-            
-          </form>
+			<h2>Contact Form</h2>
+			<p>
+			  <label for="textfield">Your Name:</label>
+			  <input name="textfield" type="text" required="required" id="name">
+		    </p>
+			<p>
+			  <label for="textfield">Phone:</label>
+			  <input type="text" name="textfield" id="phone">
+		    </p>
+			<p>
+			  <label for="textfield">Email:</label>
+			  <input name="textfield" type="text" required="required" id="email">
+		    </p>
+			<p>
+			  <label for="textarea">Message:</label>
+		    <textarea name="message" required="required" id="message"></textarea></p>
+			<input type="submit" class="button">
+			</form>
         </div>
-        <div class="col-12 main col-lg-6">
-          <p>We know all the little things add up which is why we do our best to make you feel welcome and at home every time you visit our salon. Once you’re here our refurbished stations surrounded by greenery and smiling faces will put you at ease. You can feel completely confident knowing that we value you and that your needs are our top priority.</p>
-          <p>When you leave we want you to not only love your hair, which is very important but to feel relaxed, happy, and ready to take on the world. </p>
-          <p>We believe that every effort we make, to give back, to improve, to spread kindness, no matter how small is important. We value your input and feedback so never hesitate to ask a question, share a concern, or write a review. We’re here for you!</p>
-		</div>
       </div>
     </div>
 

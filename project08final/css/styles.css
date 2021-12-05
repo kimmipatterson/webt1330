@@ -60,6 +60,9 @@ h1 {
 a {
     color: #28A745;
 }
+h3 {
+    font-weight: 300;
+}
 h4 {
     font-weight: 400;
 }
@@ -68,4 +71,32 @@ h4 {
 }
 .phone {
     font-size: large;
+}
+input {
+    width: 100%;
+    margin-bottom: 10px;
+}
+textarea {
+    width: 100%;
+    margin-bottom: 10px;
+}
+.button {
+    width: auto;
+}
+form {
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+@media screen and (min-width:768px){
+.logo {
+    width: 50%;
+}
+form {
+    width: 90%;
+}
 }
